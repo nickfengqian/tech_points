@@ -1,0 +1,17 @@
+remove all new and untracked files
+	git clean -df
+		dry run: git clean -ndf
+
+remove all current unstaged changes
+	git checkout -- .
+
+save current changes for future
+	git stash
+
+fech and see what will get
+	git fetch
+	git log HEAD..origin 
+
+clone repo to a named local folder
+	make an empty named folder locally
+	git clone xxx.git folder path
