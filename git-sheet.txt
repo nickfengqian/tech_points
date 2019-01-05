@@ -15,3 +15,13 @@ fech and see what will get
 clone repo to a named local folder
 	make an empty named folder locally
 	git clone xxx.git folder path
+
+avoid inputing codes everytime
+	The easiest way is to create a ~/.netrc file with the following contents:
+
+	machine github.com
+	login YOUR_GITHUB_USERNAME
+	password YOUR_GITHUB_PASSWORD
+
+	You can even close up the permissions on this file so that no one can read your password by typing:
+	chmod 600 ~/.netrc
