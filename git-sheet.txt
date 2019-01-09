@@ -5,6 +5,9 @@ remove all new and untracked files
 remove all current unstaged changes
 	git checkout -- .
 
+remove specific unstaged changes
+	git checkout -- [file name, folder name, wild cards etc]
+
 save current changes for future
 	git stash
 
