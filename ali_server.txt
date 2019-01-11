@@ -1,0 +1,5 @@
+安装 mysql
+	https://blog.csdn.net/chenpy/article/details/50344085
+
+安装 qrcode 失败
+	sudo pip3 install --upgrade setuptools
