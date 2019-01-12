@@ -1,5 +1,19 @@
 安装 mysql
 	https://blog.csdn.net/chenpy/article/details/50344085
+	一定要升级到 1G 内存
+	远程连接
+		https://segmentfault.com/a/1190000010644317
+
+		https://stackoverflow.com/questions/5915534/accessing-a-mysql-database-from-external-host-ip-ie-mysql-workbench/22637763#22637763
+		s
+
+		修改配置文件！！
+			https://www.cnblogs.com/funnyboy0128/p/7966531.html
 
 安装 qrcode 失败
 	sudo pip3 install --upgrade setuptools
+	另外，安装 qrcode 要同时 
+		pip3 install Image
+		pip3 install pillow
+
+
