@@ -1,0 +1,48 @@
+Dining 1
+	Outside 1 
+	WithPudding 0
+	DiningHall 1 
+	Grocery 1
+	Fruit_veggi 1
+
+Drink
+	Soft drink
+	Water
+
+Snack
+	dessert
+	randomSnack
+
+Transport 1 
+	Taxi 1
+	Tube & bus 1 
+	Train 1
+	Air 1 
+	Gas 1 
+	Parking 1
+	
+Give
+	Present
+	ToFish
+	Treat
+
+Daily
+	Tools
+	Wash
+	Clothing
+	Cleanse & Makeup
+	mail
+	sport
+	printing
+
+Book
+
+Hotel
+
+Fun
+	Play
+	Toy
+Other
+	Other
+	
+Healthcare
