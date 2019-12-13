@@ -1,0 +1,6 @@
+when you can not shutdown
+	redis-cli
+	127.0.0.1:6379> shutdown
+	(error) ERR Errors trying to SHUTDOWN. Check logs.
+	127.0.0.1:6379> shutdown NOSAVE
+	not connected>

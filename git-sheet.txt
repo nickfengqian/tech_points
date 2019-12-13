@@ -28,3 +28,20 @@ avoid inputing codes everytime
 
 	You can even close up the permissions on this file so that no one can read your password by typing:
 	chmod 600 ~/.netrc
+
+ignore file that has been added !!!
+	git rm --cached
+
+	firt git rm --cached
+	then add it to git ignore
+
+	已经提交的 file 的 ignore，深度好文
+		https://gist.github.com/scy/6636390
+
+		https://stackoverflow.com/questions/27304702/git-checkout-to-restore-files-from-a-prior-branch-pathspec-did-not-match-any-fi
+
+		需要 git checkout <commit #>^ <file name> 来 restore 
+
+		restore 了以后，还需要重新 reset 一发。
+
+		https://stackoverflow.com/questions/215718/reset-or-revert-a-specific-file-to-a-specific-revision-using-git
